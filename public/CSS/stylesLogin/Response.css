@@ -1,0 +1,48 @@
+@media (max-width: 1344px) {
+    
+    /* PAGE LOGIN */
+    .login-box {
+        padding: 40px 30px;
+        min-height: 440px;
+        min-width: 360px;
+        margin-bottom: 15px;
+    }
+
+    figure img {
+        height: 64px;
+        width: 152px;
+        margin-bottom: 36px;
+    }
+
+    .input-group input {
+        background-color: #EDEDED;
+        border: none;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    button {
+        margin-top: 14px;
+        padding: 8px;
+    }
+
+
+}
+
+/* MOBILE */
+@media (max-width: 380px) {
+    
+    .login-box {
+        padding: 30px 20px;
+        min-height: 440px;
+        min-width: 300px;
+    }
+
+    figure img {
+        height: 44px;
+        width: 142px;
+        
+    }
+}
+
+
