@@ -33,5 +33,30 @@ footer {
     margin-bottom: 12px;
 }
 
+.password-container {
+    position: relative;
+}
 
+.password-input-wrapper {
+    position: relative;
+}
+
+.password-input-wrapper input {
+    padding-right: 35px; 
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+    z-index: 2;
+}
+
+.toggle-password:hover {
+    color: #333;
+}   
 
